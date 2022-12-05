@@ -1,0 +1,18 @@
+.services{
+    padding: 2rem 0;
+}
+
+.services img{
+    height: 100%;
+    width: var(--img-width);
+}
+
+.watches{
+    display: flex;
+    border: 0.02rem solid var(--main-color);
+}
+
+.piaget{
+    height: var(--card-height);
+    width: var(--card-width);
+}

@@ -1,0 +1,49 @@
+main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background-color: var(--sub-color); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    z-index: -999;
+}
+
+main img{
+    position: absolute;
+    width: auto;
+    top: 6rem;
+    left: 70rem;
+    z-index: -99;
+    transform: translateZ(-1rem) scale(2);
+}
+
+main .text{
+    position: absolute;
+    top: 12rem;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: var(--text-color);
+}
+
+main .text h1{
+    font-family: var(--main-font);
+    font-size: 5rem;
+    font-style: normal;
+}
+
+main .text h2{
+    font-family: var(--sub-font);
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+main svg{
+    position: absolute;
+    top: 22rem;
+    z-index: -88;
+    transform: translateZ(-0.5rem) scale(2.1);
+}

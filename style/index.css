@@ -1,0 +1,50 @@
+@import url('https://fonts.cdnfonts.com/css/coldiac-free');
+@import url('https://fonts.cdnfonts.com/css/herr-von-muellerhoff');
+@import url('https://fonts.cdnfonts.com/css/playfair-display');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+    background: var(--sub-color);
+    padding: 0.01rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+    border-radius: 0.5rem;
+}
+
+:root{
+    --main-font: 'Coldiac Free', sans-serif;
+    --sub-font: 'Herr Von Muellerhoff', sans-serif;
+    --text-font:'Playfair Display', sans-serif;
+
+    --main-color: #1f3d3d;
+    --sub-color: #e0e0e0;
+    --text-color: #0e0e0e;
+
+    --card-height: 15rem;
+    --card-width: 30rem;
+    --img-width: 50% ;
+}
+
+.wrapper{
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 1rem;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
